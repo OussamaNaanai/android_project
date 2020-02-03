@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_map"
+        android:title="Carte"></item>
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/ic_perm_identity_black_24dp"
+        android:title="Mon profil"></item>
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/ic_lock_outline_black_24dp"
+        android:title="Se Déconnecter"></item>
+
+</menu>

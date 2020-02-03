@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="150dp"
+        android:background="@color/pink">
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:id="@+id/malade"
+            android:textSize="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:onClick="clickImage"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/ajouter"
+            android:src="@drawable/ic_add_circle_outline_black_24dp"
+            android:contextClickable="true"
+            android:scaleType="fitCenter"
+            android:autoLink="all"
+            tools:ignore="OnClick" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Ajouter votre malade"
+            android:gravity="center"
+            android:id="@+id/lblajouter"
+
+            android:focusable="false"
+            android:textColor="@color/pink"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:onClick="clickImage"
+            android:clickable="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/signout"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_call_missed_outgoing_black_24dp"
+            android:contextClickable="true"
+            android:layout_marginTop="20dp"
+            android:autoLink="all"
+            tools:ignore="OnClick" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Se déconnecter"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>
