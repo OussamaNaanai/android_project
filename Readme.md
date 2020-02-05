@@ -7,4 +7,4 @@
  - **Camera**
 ## Tools used
  - Android Studio
- ### Demo video [in the links below](www.google.com)
+ ### Demo video [in the links below](https://drive.google.com/file/d/1NZlIkItgoiycUfo_-cyRlCmL3fmZXFL5/view?usp=drivesdk)
